@@ -9,8 +9,14 @@
   <body>
     <h1>J.S. Events!</h1>
     <button id="demoButton">Time</button>
-    <p id="demoPara"></p>
-    <img onmouseover="bigCat" src="/assets/greenCat.jpeg" />
+    <p id="demoPara">&nbsp;</p>
+    <img
+      onmouseover="bigCat(this)"
+      onmouseout="normalCat(this)"
+      src="/assets/greenCat.jpeg"
+      width="166px"
+      height="250px"
+    />
   </body>
   <script src="/js/index.js"></script>
 </html>
