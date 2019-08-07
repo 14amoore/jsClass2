@@ -16,3 +16,7 @@ function normalCat(x) {
   x.style.width = "166px";
   x.style.height = "250px";
 }
+
+function keyedDown() {
+  alert("You pressed a key inside of the input field.");
+}
